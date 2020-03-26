@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api-front
+spring:
+  redis:
+    database: 2
+    host: 120.26.101.202
+    password: live4dream
+    jedis:
+      pool:
+        max-active: 8
+        min-idle: 0
+        maxActive: 10
